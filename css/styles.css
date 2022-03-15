@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Merriweather&family=Montserrat&family=Sacramento&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 60px;
+  font-size: x-large;
+  font-family: "Lobster", cursive;
+  color: rgb(179, 21, 0);
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("/img/background.jpg");
+}
+
+.tm-color-light-gray {
+  padding-top: 10px;
+  color: rgb(92, 8, 95);
+  font-size: 2.3rem;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 1030px) {
+  body {
+    font-size: 1rem;
+  }
+
+  #tm-video {
+    width: 640px;
+    height: 480px;
+  }
+
+  #qer-video {
+    width: 480px;
+    height: 480px;
+  }
+}
+
+@media only screen and (max-width: 645px) {
+  body {
+    font-size: 0.5rem;
+  }
+  .tm-color-light-gray {
+    font-size: 1rem;
+  }
+  h2,
+  h3 {
+    font-size: 1rem;
+  }
+
+  #tm-video {
+    width: 350px;
+    height: 260px;
+  }
+
+  #qer-video {
+    width: 260px;
+    height: 170px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  body {
+    font-size: 0.5rem;
+  }
+
+  #tm-video {
+    width: 280px;
+    height: 220px;
+  }
+
+  #qer-video {
+    width: 220px;
+    height: 170px;
+  }
+}
